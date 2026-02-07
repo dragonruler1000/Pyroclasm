@@ -1,5 +1,7 @@
 {
   "item.pyroclasm.core_iron": "Core Iron",
   "item.pyroclasm.raw_core_iron": "Raw Core Iron",
-  "creativetab.pyroclasm_tab": "Pyroclasm"
+  "creativetab.pyroclasm_tab": "Pyroclasm",
+  "block.pyroclasm.core_iron_block": "Core Iron Block",
+  "block.pyroclasm.core_iron_ore": "Core Iron Ore"
 }

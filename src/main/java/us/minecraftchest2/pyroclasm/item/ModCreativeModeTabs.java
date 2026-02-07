@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import us.minecraftchest2.pyroclasm.Pyroclasm;
+import us.minecraftchest2.pyroclasm.block.ModBlocks;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -17,8 +18,13 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CORE_IRON.get()))
                     .title(Component.translatable("creativetab.pyroclasm_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        //items
                         output.accept(ModItems.CORE_IRON.get());
                         output.accept(ModItems.RAW_CORE_IRON.get());
+
+                        //blocks
+                        output.accept(ModBlocks.CORE_IRON_BLOCK.get());
+                        output.accept(ModBlocks.CORE_IRON_ORE.get());
                     })
                     .build());
 

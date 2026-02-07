@@ -13,6 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import us.minecraftchest2.pyroclasm.block.ModBlocks;
 import us.minecraftchest2.pyroclasm.item.ModCreativeModeTabs;
 import us.minecraftchest2.pyroclasm.item.ModItems;
 
@@ -28,6 +29,7 @@ public class Pyroclasm {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.ITEMS.register(modEventBus);
+        ModBlocks.BLOCKS.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

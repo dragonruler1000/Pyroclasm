@@ -17,7 +17,7 @@ import java.util.concurrent.CompletableFuture;
 
 public class ModItemModelProvider extends ItemModelProvider {
     public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
-        super(output, Pyroclasm.MOD_ID, existingFileHelper);
+        super(output, Pyroclasm.MOD_ID, existingFileHelper); //error 1 links to here
     }
 
     @Override

@@ -16,8 +16,7 @@ import java.util.List;
 import java.util.function.Consumer;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
-    private static final List<ItemLike> CORE_IRON_SMELTABLES = List.of(ModItems.RAW_CORE_IRON.get(),
-            ModItems.RAW_CORE_IRON.get());
+    private static final List<ItemLike> CORE_IRON_SMELTABLES = List.of(ModItems.RAW_CORE_IRON.get());
 
     public ModRecipeProvider(PackOutput pOutput) {
         super(pOutput);
@@ -30,7 +29,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(pWriter, CORE_IRON_SMELTABLES, RecipeCategory.MISC,
                 ModItems.CORE_IRON.get(), 0.25f, 200, "core_iron");
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CORE_IRON.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CORE_IRON_BLOCK.get())
                 .pattern("###")
                 .pattern("###")
                 .pattern("###")

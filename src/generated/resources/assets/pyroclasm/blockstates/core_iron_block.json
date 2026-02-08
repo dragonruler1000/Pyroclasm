@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pyroclasm:block/core_iron_block"
+    }
+  }
+}

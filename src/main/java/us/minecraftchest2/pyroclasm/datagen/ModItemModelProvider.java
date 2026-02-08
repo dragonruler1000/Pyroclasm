@@ -1,11 +1,8 @@
 package us.minecraftchest2.pyroclasm.datagen;
 
-import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
-import net.minecraft.data.tags.TagsProvider;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -13,11 +10,9 @@ import net.minecraftforge.registries.RegistryObject;
 import us.minecraftchest2.pyroclasm.Pyroclasm;
 import us.minecraftchest2.pyroclasm.item.ModItems;
 
-import java.util.concurrent.CompletableFuture;
-
 public class ModItemModelProvider extends ItemModelProvider {
     public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
-        super(output, Pyroclasm.MOD_ID, existingFileHelper); //error 1 links to here
+        super(output, Pyroclasm.MOD_ID, existingFileHelper);
     }
 
     @Override

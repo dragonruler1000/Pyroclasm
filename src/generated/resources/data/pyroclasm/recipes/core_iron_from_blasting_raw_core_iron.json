@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "core_iron",
+  "ingredient": {
+    "item": "pyroclasm:raw_core_iron"
+  },
+  "result": "pyroclasm:core_iron"
+}

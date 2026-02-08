@@ -1,0 +1,7 @@
+// 1.20.1	2026-02-08T15:02:48.689186443	Block States: pyroclasm
+b339df9b1f52c8025791da0905df78ae078f771d assets/pyroclasm/blockstates/core_iron_block.json
+1578338ce7deb52c3248c29fc6396ea0c4a231d2 assets/pyroclasm/blockstates/core_iron_ore.json
+2d8b532bd8ccd6bb452382d3d66052aac0cd1da5 assets/pyroclasm/models/block/core_iron_block.json
+b12ac9ce84b367991a7c18e7e157d90cacbbb0ab assets/pyroclasm/models/block/core_iron_ore.json
+61a2738fc9c3842fef0ec916c19e24d5f276a9f6 assets/pyroclasm/models/item/core_iron_block.json
+23bd867d911c8967bb6b03592bbfedd20e7e4259 assets/pyroclasm/models/item/core_iron_ore.json

@@ -1,1 +1,3 @@
-// 1.20.1	2026-02-08T15:01:28.132227983	Tags for minecraft:block mod id pyroclasm
+// 1.20.1	2026-02-08T21:05:46.30199701	Tags for minecraft:block mod id pyroclasm
+d685e8d13aa01300b57ac0398264dd5916de6308 data/forge/tags/blocks/needs_netherite_tool.json
+d685e8d13aa01300b57ac0398264dd5916de6308 data/minecraft/tags/blocks/mineable/pickaxe.json

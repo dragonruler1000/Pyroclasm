@@ -125,6 +125,7 @@ repositories {
         name 'DVS1 Maven FS'
         url 'https://dvs1.progwml6.com/files/maven'
     }
+//    mavenCentral()
 }
 
 dependencies {
@@ -152,6 +153,8 @@ dependencies {
     // This should be below the net.minecraftforge.gradle plugin
     implementation fg.deobf("slimeknights.mantle:Mantle:${minecraft_version}-${mantle_build}")
     implementation fg.deobf("slimeknights.tconstruct:TConstruct:${minecraft_version}-${tinkers_build}")
+
+//    implementation fg.deobf("com.ptsmods:devlogin:3.5") // For Forge
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

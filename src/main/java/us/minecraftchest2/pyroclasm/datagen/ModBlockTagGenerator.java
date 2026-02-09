@@ -2,10 +2,13 @@ package us.minecraftchest2.pyroclasm.datagen;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
+import net.minecraft.tags.BlockTags;
+import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
 import us.minecraftchest2.pyroclasm.Pyroclasm;
+import us.minecraftchest2.pyroclasm.block.ModBlocks;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -16,8 +19,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-        //        this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
-        //                .add(ModBlocks.SAPPHIRE_ORE.get()).addTag(Tags.Blocks.ORES); example usage
+        this.tag(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.CORE_IRON_BLOCK.get(),
+                ModBlocks.CORE_IRON_ORE.get());
+        this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
+                .add(ModBlocks.CORE_IRON_BLOCK.get(),
+                        ModBlocks.CORE_IRON_ORE.get());
+
 
     }
 }

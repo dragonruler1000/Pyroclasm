@@ -1,0 +1,13 @@
+{
+  "name":"pyroclasm:thermal_vents",
+  "fallback":"minecraft_empty",
+  "elements":[{
+    "weight":1,
+    "elements":{
+      "location":"pyroclasm:thermal_vents/core_iron_stash",
+      "processors":"minecraft_empty",
+      "projection":"rigid",
+      "element_type":"minecraft:single_pool_element"
+    }
+  }]
+}
